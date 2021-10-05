@@ -200,7 +200,7 @@ nav .nav__links ul li a:hover {
   transition: 0.5s;
 }
 .menu .cards .card-body:hover {
-  transform: scale(1.03);
+  transform: translateY(-10px);
 }
 .menu .cards .card .card-img img {
   width: 100%;
