@@ -346,7 +346,11 @@
       }
       closeIcon.addEventListener("click", closeList);
       //   Close When Link Clicked
-      navLinks.forEach((x) => x.addEventListener("click", closeList));
+      navLinks.forEach((x) =>
+        x.addEventListener("click", function () {
+          navList.classList.add("hide");
+        })
+      );
     </script>
   </body>
 </html>
